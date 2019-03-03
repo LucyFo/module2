@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Gotham";
+  src: url("./assets/fonts/Gotham-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Book", sans-serif;
+  src: url("./assets/fonts/GothamBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Medium", sans-serif;
+  src: url("./assets/fonts/GothamMedium.ttf") format("truetype");
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1172px;
+}
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 80px;
+  letter-spacing: 4px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham";
+  font-weight: bold;
+}
+h2 {
+  font-size: 44px;
+  line-height: 22px;
+  color: #2c4058;
+  font-family: "Gotham";
+  font-weight: 500;
+}
+img {
+  width: auto;
+  max-width: 100%;
+}
+a {
+}
+header {
+  padding: 52px 0 0 0;
+  min-height: 800px;
+  background: url("./assets/images/bg1.jpg");
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.slogan {
+  margin-top: 207px;
+  font-size: 80px;
+  letter-spacing: 4px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham";
+  font-weight: bold;
+  text-align: center;
+}
+.slogan2 {
+  margin-top: 40px;
+  width: 834px;
+  height: 24px;
+  font-size: 18px;
+  letter-spacing: 5px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham";
+}
+.page-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: stretch;
+}
+.page-navigation a {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham";
+}
+
+.image-set {
+  display: flex;
+}
+.big-photo {
+  width: 50%;
+  align-self: center;
+}
+.small-photo {
+  width: 50%;
+  /* margin: 5px; */
+}
+.small-photo img {
+  width: 283px;
+  height: 215px;
+}
+.slider-container {
+}
+.news {
+  margin-top: 139px;
+  background-color: #32a0e5;
+}
+.new h2 {
+  padding-top: 142px;
+}
+.slick-container {
+  margin-top: 100px;
+  color: #fff;
+}
+.slick-dots {
+    display: inline-block;
+}
+.slick-items {
+}
+#map {
+    height : 100%;
+}
